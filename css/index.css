@@ -1,0 +1,29 @@
+html, body {height: 3000px; font-family: 'Oswald', sans-serif; font-size: 15px; background-color: #dadada;}
+
+/******* header-wrapper ********/
+.header-wrapper {background-color: #000; color: #fff;}
+.header-wrapper .sns-wrap {float: left;}
+.header-wrapper .sns-wrap .sns {float: left; padding: 10px 16px;}
+.header-wrapper .sns-wrap .sns:hover {background-color: #ddd; color: #000;}
+.header-wrapper .search-wrap {float: right; padding: 10px 16px;}
+.header-wrapper .search-wrap:hover {background-color: #ddd; color: #000;}
+
+/******* main-wrapper1 ********/
+.main-wrapper1 .title-wrap {background-color: #fff; padding: 60px; text-align: center;}
+.main-wrapper1 .title-wrap h1.title {background-color: #fff; font-size: 48px; font-weight: bold; margin-bottom: 26px; margin-top: 12px;}
+.main-wrapper1 .title-wrap h3.title {font-size: 16px;}
+.main-wrapper1 .title-wrap h3.title > span {background-color: #000; color: #fff; padding: 1px 6px;}
+
+.main-wrapper1 .img-wrapper {position: relative; top: 0; left: 0;}
+.main-wrapper1 .img-wrapper .img-content-wrap {position: absolute; color: #fff; left: 1.9%; top: 50%;
+transform: translate(0, -50%);}
+.main-wrapper1 .img-wrapper .img-content-wrap h2.title {font-size: 36px; margin-bottom: 36px; letter-spacing: 5px;}
+.main-wrapper1 .img-wrapper .img-content-wrap h1.title {font-size: 60px; margin-bottom: 24px; font-weight: bold; letter-spacing: 5px;}
+.main-wrapper1 .img-wrapper .img-content-wrap .bt {border: none; padding: 12px 24px; font-family: 'Oswald', sans-serif; font-size: 17px; background-color: #ccc; opacity: .7;}
+.main-wrapper1 .img-wrapper .img-content-wrap .bt:hover {opacity: 1; cursor: pointer;}
+
+/******* main-wrapper2 ********/
+
+/******* footer-wrapper ********/
+
+

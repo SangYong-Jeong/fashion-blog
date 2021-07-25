@@ -1,4 +1,4 @@
-html, body {height: 3000px; font-family: 'Oswald', sans-serif; font-size: 15px; background-color: #dadada;}
+html, body {height: 3000px; font-family: 'Oswald', sans-serif; font-size: 15px; background-color: #e9e9e9;}
 
 /******* header-wrapper ********/
 .header-wrapper {background-color: #000; color: #fff;}
@@ -23,6 +23,69 @@ transform: translate(0, -50%);}
 .main-wrapper1 .img-wrapper .img-content-wrap .bt:hover {opacity: 1; cursor: pointer;}
 
 /******* main-wrapper2 ********/
+/* left-wrapper */
+.main-wrapper2 .title-wrap-first {padding-bottom: 12px;}
+.main-wrapper2 .bt-wrap1 {padding-bottom: 40px; border-bottom: 1px solid #ddd; margin-bottom: 20px;}
+.main-wrapper2 .writer .writer-img {width: 100px; height: 100px; padding: 4px; float: left; margin-right: 14px;}
+.main-wrapper2 .writer .last {display: inline-block; float: left; padding-top: 12px;}
+.main-wrapper2 .writer h4.date {font-size: 20px; padding-top: 10px;}
+.main-wrapper2 .writer h4.date > span {font-size: 15px;}
+.main-wrapper2 .writer p.content {padding-left: 3px;}
+
+/* right-wrapper */
+.right-wrapper .name-wrap {margin-bottom: 42px;}
+.right-wrapper .name-wrap .name-img {filter: grayscale(.7);}
+.right-wrapper .name-wrap .introduction-wrap {background-color: #000; padding: 14px;}
+.right-wrapper .introduction-wrap h4.title {color: #fff; font-size: 20px; margin-bottom: 20px;}
+.right-wrapper .introduction-wrap p.content {color: #fff; margin-bottom: 0; line-height: 1.5; text-align: left;}
+
+.right-wrapper .post-wrap {margin-bottom: 42px;}
+.right-wrapper .post-wp .post:nth-child(4) > .post-img img{filter: sepia(.7);}
+.right-wrapper .post-wrap h4.title {background-color: #000;
+color: #fff; padding: 24px 14px; font-size: 20px;}
+.right-wrapper .post {padding: 16px; background-color: #fff;}
+.right-wrapper .post:hover {background-color: #ccc;}
+.right-wrapper .post:nth-child(1) {border-bottom: 1px solid #ccc;}
+.right-wrapper .post:nth-child(2) {border-bottom: 1px solid #ccc;}
+.right-wrapper .post:nth-child(3) {border-bottom: 1px solid #ccc;}
+.right-wrapper .post .post-img {float: left; width: 50px; height: 50px;
+margin-right: 12px;}
+.right-wrapper .post .clothes {float: left; padding: 4px;}
+.right-wrapper .post .clothes h4.cloth1 {font-size: 18px; font-family: 'Open Sans', sans-serif; margin-bottom: 10px;}
+.right-wrapper .post .clothes p.cloth2 {font-family: 'Open Sans', sans-serif;
+}
+
+.right-wrapper .adv-wrap {margin-bottom: 42px;}
+.right-wrapper .adv-wrap h4.title {background-color: #000;
+	color: #fff; padding: 24px 14px; font-size: 20px;}
+.right-wrapper .adv-wrap .adv-wp {background-color: #fff; padding: 16px;
+display: table; width: 100%;}
+.right-wrapper .adv-wrap .adv-wp .adv {background-color: #eee; display: table-cell; vertical-align: middle; text-align: center; padding: 100px 0;}
+.right-wrapper .adv p.ad {font-family: 'Open Sans', sans-serif;}
+
+.right-wrapper .tag-wrap {margin-bottom: 42px;}
+.right-wrapper .tag-wrap h4.title {background-color: #000;
+	color: #fff; padding: 24px 14px; font-size: 20px;}
+.right-wrapper .tag-wp {font-family: 'Open Sans', sans-serif; padding: 16px; background-color: #fff;}
+.right-wrapper .tag-wp .tag {display: inline-block; font-size: 12px; background-color: #eee; padding: 2px 8px; margin-bottom: 16px; margin-right: 2px;}
+.right-wrapper .tag-wp .tag-first {background-color: #000; color: #fff; font-size: 15px; padding: 4px 8px;}
+
+.right-wrapper .inspiration-wrap {margin-bottom: 42px;}
+.right-wrapper .inspiration-wrap h4.title {background-color: #000;
+	color: #fff; padding: 24px 14px; font-size: 20px;}
+.right-wrapper .inspiration-wrap .inspiration-wp {background-color: #fff; padding: 8px;}
+.right-wrapper .imgs1 {width: 50%; float: left;}
+.right-wrapper .imgs1 > .imgs {padding: 4%;}
+.right-wrapper .imgs2 {width: 50%; float: right;}
+.right-wrapper .imgs2 > .imgs {padding: 4%;}
+.right-wrapper .imgs2 > .imgs:nth-child(1) {filter: grayscale(.7);}
+
+.right-wrapper .follow-wrap {}
+.right-wrapper .follow-wrap h4.title {background-color: #000;
+	color: #fff; padding: 24px 14px; font-size: 20px;}
+.right-wrapper .follow-wrap .follow-wp {background-color: #fff; padding: 16px; text-align: left;} 
+.right-wrapper .follow {display: inline-block; font-size: 23px; margin-right: 4px;}
+.right-wrapper .follow:hover {opacity: .7;}
 
 /******* footer-wrapper ********/
 

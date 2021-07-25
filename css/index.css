@@ -106,12 +106,35 @@ padding: 10px 24px; font-size: 15px; font-weight: 400; text-align: center; borde
 .footer-wrapper .copyright {margin-bottom: 20px; font-family: 'Open Sans', sans-serif; color: #fff;}
 .footer-wrapper .copyright > a {text-decoration: underline;} 
 
+/* box-shadow */
+.header-wrapper {box-shadow: 0 0 10px rgba(0, 0, 0, .7);}
+.main-wrapper1 {box-shadow: 0 0 10px rgba(0, 0, 0, .7);}
+.main-wrapper2 .left-wrapper .title-wrap {box-shadow: 0 0 40px rgba(0, 0, 0, .7);}
+.main-wrapper2 .right-wrapper .name-wrap {box-shadow: 0 0 40px rgba(0, 0, 0, .7);}
+.main-wrapper2 .right-wrapper .post-wrap {box-shadow: 0 0 40px rgba(0, 0, 0, .7);}
+.main-wrapper2 .right-wrapper .adv-wrap {box-shadow: 0 0 40px rgba(0, 0, 0, .7);}
+.main-wrapper2 .right-wrapper .tag-wrap {box-shadow: 0 0 40px rgba(0, 0, 0, .7);}
+.main-wrapper2 .right-wrapper .inspiration-wrap {box-shadow: 0 0 40px rgba(0, 0, 0, .7);}
+.main-wrapper2 .right-wrapper .follow-wrap {box-shadow: 0 0 40px rgba(0, 0, 0, .7);}
+.main-wrapper2 .right-wrapper .subscribe-wrap {box-shadow: 0 0 40px rgba(0, 0, 0, .7);}
+.footer-wrapper {box-shadow: 0 0 40px rgba(0, 0, 0, .7);}
+
 /* trick */
+.main-wrapper1 .img-wrapper .img-wrap {overflow: hidden;}
+.main-wrapper1 .img-wrapper .img-wrap img {transition: all .5s;}
+.main-wrapper1 .img-wrapper .img-wrap img:hover {transform: scale(1.2); filter: opacity(.7);}
 
+.main-wrapper2 .left-wrapper .title-wrap .img-wp img {transition: all .5s;}
+.main-wrapper2 .left-wrapper .title-wrap .img-wp img:hover {transform: translate(20px, 20px); filter: sepia(.7);}
+.main-wrapper2 .left-wrapper .title-wrap-first .writer-img img {transition: all .5s;}
+.main-wrapper2 .left-wrapper .title-wrap-first .writer-img img:hover
+{transform: rotate(360deg);}
 
+.main-wrapper2 .right-wrapper .name-wrap .name-img img {transition: all .5s;}
+.main-wrapper2 .right-wrapper .name-wrap .name-img img:hover {transform: translate(-20px, -20px); filter: sepia(.7);}
 
+.main-wrapper2 .right-wrapper .post-wrap .post-img img {transition: all .5s;}
+.main-wrapper2 .right-wrapper .post-wrap .post-img img:hover {transform: scale(1.2);}
 
-
-
-
-
+.main-wrapper2 .right-wrapper .inspiration-wrap .imgs img {transition: all .5s; opacity: .5;}
+.main-wrapper2 .right-wrapper .inspiration-wrap .imgs img:hover {transform: scale(1.2); opacity: 1;}

@@ -1,4 +1,4 @@
-html, body {height: 3000px; font-family: 'Oswald', sans-serif; font-size: 15px; background-color: #e9e9e9;}
+html, body {font-family: 'Oswald', sans-serif; font-size: 15px; background-color: #e9e9e9;}
 
 /******* header-wrapper ********/
 .header-wrapper {background-color: #000; color: #fff;}
@@ -105,3 +105,13 @@ padding: 10px 24px; font-size: 15px; font-weight: 400; text-align: center; borde
 .footer-wrapper .bt-black .fa {margin-right: 15px;}
 .footer-wrapper .copyright {margin-bottom: 20px; font-family: 'Open Sans', sans-serif; color: #fff;}
 .footer-wrapper .copyright > a {text-decoration: underline;} 
+
+/* trick */
+
+
+
+
+
+
+
+
